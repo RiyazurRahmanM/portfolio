@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #080808;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #080808;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.mypic {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.sample_works {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sample_works img {
+    margin: 10px;
+}
+
+.skills {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.skills ul li {
+    margin: 0 10px;
+}
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.contact ul li {
+    margin: 0 10px;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    color:white;
+}
